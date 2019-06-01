@@ -29,7 +29,7 @@ class Desk:
         self.wind.title('Aplicación con interfaz gráfica')
         
         # creamos un contenedor
-        frame = LabelFrame(self.wind, text = 'CALCULAR AÑOS FALTANTES O PASADOS')
+        frame = LabelFrame(self.wind, text = 'CALCULAR AÑOS PASADOS O FALTANTES')
         frame.grid(row = 0, column = 0, columnspan = 3, pady = 30)
         
         # creamos un etiqueta
